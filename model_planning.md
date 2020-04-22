@@ -66,9 +66,14 @@ This the place of something
 ---- 
 ## Hike (Jason)
 ### Attributes (characteristics)
-- `Class.attribute`
-  - description: 
-  - method_type:  
+- `Hike.Name`
+  - description: the short name used to describe a hike
+  - attribute_type: string 
+- `Hike.Trails` 
+  - description: attribute of trails comprised in the hike (i.e. [blue_trail,red_trail, etc.])
+  - attribute_type: Array<Trail>
+- `Hike.Location` 
+  - description: the starting point of the trail 
 ### Methods (verb)
 - `Class.attribute`
   - description:" 
