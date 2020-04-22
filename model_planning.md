@@ -74,14 +74,23 @@ This the place of something
   - attribute_type: Array<Trail>
 - `Hike.Location` 
   - description: the starting point of the trail 
+  - attribute_type: Location
+- `Hike.shade_level` 
+  - description: Averages shade rating for all `Trails` as part of the hike 
+  - attribute_type: number 
+- `Hike.pets_allowed`
+  - description: defines what pets (if any) are permitted on **all** trails of the hike 
+  - attribute_type: Array<string>
 ### Methods (verb)
-- `Class.attribute`
-  - description:" 
-  - method_type: [instance/class] 
-  - params: [name:string, age:integer]
-  - return: name 
+- FUTURE - `Class.similar`
+  - description: finds other hikes that are similar to the one provided 
+  - method_type: instance
+  - params: nil 
+  - return: Array<Hike>   
 ### Data Source 
   - where is the information coming from 
+
+  
 ---- 
 
  
